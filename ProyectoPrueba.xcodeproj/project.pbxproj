@@ -297,8 +297,8 @@
 				D0492F3421AD708000A3BF0E /* ViewController3.swift */,
 				D0492F3621AD708B00A3BF0E /* ViewController4.swift */,
 				D0492FC521AD9AF100A3BF0E /* ViewController5.swift */,
-				D0492F0621AD6FE600A3BF0E /* Main.storyboard */,
 				D065DAE821B1B5D800EAA34D /* ViewController6.swift */,
+				D0492F0621AD6FE600A3BF0E /* Main.storyboard */,
 				D0492F0921AD6FE800A3BF0E /* Assets.xcassets */,
 				D0492F0B21AD6FE800A3BF0E /* LaunchScreen.storyboard */,
 				D0492F0E21AD6FE800A3BF0E /* Info.plist */,
@@ -412,6 +412,7 @@
 				D0492EFB21AD6FE600A3BF0E /* Sources */,
 				D0492EFC21AD6FE600A3BF0E /* Frameworks */,
 				D0492EFD21AD6FE600A3BF0E /* Resources */,
+				7A985B06A3E488A67D4BA6E7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -601,6 +602,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		7A985B06A3E488A67D4BA6E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ProyectoPrueba/Pods-ProyectoPrueba-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProyectoPrueba/Pods-ProyectoPrueba-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		857D43E62E0E081FD0966B9E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

@@ -6,7 +6,8 @@ target 'ProyectoPrueba' do
   use_frameworks!
 
   # Pods for ProyectoPrueba
-pod 'GoogleMaps'
+  pod 'GoogleMaps'
+  
   target 'ProyectoPruebaTests' do
     inherit! :search_paths
     # Pods for testing
